@@ -298,7 +298,7 @@ function TextEditor() {
             <div className="flex justify-end mt-4">
                     <button
                         type="button"
-                        onClick={printPDF}
+                        onClick={handleSave}
                         className="px-4 py-2 bg-blue-600 text-white rounded-sm"
                     >
                         Save JSON
